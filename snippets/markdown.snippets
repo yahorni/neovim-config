@@ -35,3 +35,17 @@ snippet task
     ## progress
 
     ${6}
+
+snippet wt
+    ---
+    tags:
+      - weekly-notes
+    ---
+    `!lua require('notes').weekly_note_body(0)`
+
+snippet wn
+    ---
+    tags:
+      - weekly-notes
+    ---
+    `!lua require('notes').weekly_note_body(1)`

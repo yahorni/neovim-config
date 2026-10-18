@@ -79,6 +79,8 @@ vim.opt.wildignore:append("*/?build/*,*/.git/*,*/node_modules/*")
 vim.opt.clipboard = "unnamedplus"
 -- minimal lines before/after cursor
 vim.opt.scrolloff = 5
+-- scroll wrapped lines as screen lines
+vim.opt.smoothscroll = true
 -- do not autoreload changed file
 vim.opt.autoread = false
 -- highlight current line
